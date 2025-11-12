@@ -62,7 +62,7 @@ const NavbarComponent = () => {
                 <div className="navbar-main-content">
                     {/* Desktop Navigation Links */}
                     <ul className="desktop-nav-links">
-                        <li><a href="#"> Projects</a></li>
+                        <li><a href="#">New Projects</a></li>
                         <li className="dropdown">
                             <a href="#" onClick={(e) => handleDesktopDropdown(e, 'buy')}>Buy <FaAngleDown /></a>
                             <ul className={`dropdown-menu ${openDesktopDropdown === 'buy' ? 'show' : ''}`}>
